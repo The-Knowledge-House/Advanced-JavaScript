@@ -5,11 +5,11 @@ var oddOrEven;
 
 var isEven = function(number){
 	if (number%2 == 0){
-		return true 
+		return true; 
 	} else {
-		return false
+		return false;
 	}; 
-};
+}
 
 for (var i = 0, len = someNums.length; i<len; i++){
 	num =  someNums[i];
