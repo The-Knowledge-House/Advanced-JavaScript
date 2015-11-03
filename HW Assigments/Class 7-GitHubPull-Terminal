@@ -1,0 +1,91 @@
+Last login: Wed Oct 28 17:59:34 on ttys004
+Tunisias-MacBook-Pro:Advanced-JavaScript tmitchell$ git status
+# On branch TM-Additions
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   .DS_Store
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	Slide Content /Class 8- MVC and Web Applications.pdf
+no changes added to commit (use "git add" and/or "git commit -a")
+Tunisias-MacBook-Pro:Advanced-JavaScript tmitchell$ git add .
+Tunisias-MacBook-Pro:Advanced-JavaScript tmitchell$ git commit -m "Class 8"
+[TM-Additions 240223d] Class 8
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Slide Content /Class 8- MVC and Web Applications.pdf
+Tunisias-MacBook-Pro:Advanced-JavaScript tmitchell$ git remote add origin2 git@github.com:TunisiaM/Advanced-JavaScript.git
+fatal: remote origin2 already exists.
+Tunisias-MacBook-Pro:Advanced-JavaScript tmitchell$ git push origin2 TM-Additions
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 674.62 KiB, done.
+Total 5 (delta 2), reused 0 (delta 0)
+To git@github.com:TunisiaM/Advanced-JavaScript.git
+   9dc3c3d..240223d  TM-Additions -> TM-Additions
+Tunisias-MacBook-Pro:Advanced-JavaScript tmitchell$ git remote -v
+origin	git@github.com:The-Knowledge-House/Advanced-JavaScript.git (fetch)
+origin	git@github.com:The-Knowledge-House/Advanced-JavaScript.git (push)
+origin2	git@github.com:TunisiaM/Advanced-JavaScript.git (fetch)
+origin2	git@github.com:TunisiaM/Advanced-JavaScript.git (push)
+Tunisias-MacBook-Pro:Advanced-JavaScript tmitchell$ git config --global user.name "TunisiaM"
+Tunisias-MacBook-Pro:Advanced-JavaScript tmitchell$ git push origin TM-AdditionsCounting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 674.62 KiB, done.
+Total 5 (delta 2), reused 0 (delta 0)
+To git@github.com:The-Knowledge-House/Advanced-JavaScript.git
+   9dc3c3d..240223d  TM-Additions -> TM-Additions
+Tunisias-MacBook-Pro:Advanced-JavaScript tmitchell$ git status
+# On branch TM-Additions
+nothing to commit (working directory clean)
+Tunisias-MacBook-Pro:Advanced-JavaScript tmitchell$ git status
+# On branch TM-Additions
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   Excersizes/.DS_Store
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	Excersizes/Build A Static Site With Express (Class 7) /terminal_code_class_7
+no changes added to commit (use "git add" and/or "git commit -a")
+Tunisias-MacBook-Pro:Advanced-JavaScript tmitchell$ git add .Tunisias-MacBook-Pro:Advanced-JavaScript tmitchell$ git commit -m "terminal Class 7"
+[TM-Additions c08cc63] terminal Class 7
+ 2 files changed, 1104 insertions(+)
+ create mode 100644 Excersizes/Build A Static Site With Express (Class 7) /terminal_code_class_7
+Tunisias-MacBook-Pro:Advanced-JavaScript tmitchell$ git remote add origin2 git@github.com:TunisiaM/Advanced-JavaScript.git
+fatal: remote origin2 already exists.
+Tunisias-MacBook-Pro:Advanced-JavaScript tmitchell$ git push origin2 TM-Additions
+Counting objects: 10, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 8.90 KiB, done.
+Total 6 (delta 4), reused 0 (delta 0)
+To git@github.com:TunisiaM/Advanced-JavaScript.git
+   240223d..c08cc63  TM-Additions -> TM-Additions
+Tunisias-MacBook-Pro:Advanced-JavaScript tmitchell$ git remote -vorigin	git@github.com:The-Knowledge-House/Advanced-JavaScript.git (fetch)
+origin	git@github.com:The-Knowledge-House/Advanced-JavaScript.git (push)
+origin2	git@github.com:TunisiaM/Advanced-JavaScript.git (fetch)
+origin2	git@github.com:TunisiaM/Advanced-JavaScript.git (push)
+Tunisias-MacBook-Pro:Advanced-JavaScript tmitchell$ git config --global user.name "TunisiaM"
+Tunisias-MacBook-Pro:Advanced-JavaScript tmitchell$ git push origin TM-AdditionsCounting objects: 10, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 8.90 KiB, done.
+Total 6 (delta 4), reused 0 (delta 0)
+To git@github.com:The-Knowledge-House/Advanced-JavaScript.git
+   240223d..c08cc63  TM-Additions -> TM-Additions
+Tunisias-MacBook-Pro:Advanced-JavaScript tmitchell$ git remote -vorigin	git@github.com:The-Knowledge-House/Advanced-JavaScript.git (fetch)
+origin	git@github.com:The-Knowledge-House/Advanced-JavaScript.git (push)
+origin2	git@github.com:TunisiaM/Advanced-JavaScript.git (fetch)
+origin2	git@github.com:TunisiaM/Advanced-JavaScript.git (push)
+Tunisias-MacBook-Pro:Advanced-JavaScript tmitchell$ git status# On branch TM-Additions
+nothing to commit (working directory clean)
+Tunisias-MacBook-Pro:Advanced-JavaScript tmitchell$ 
