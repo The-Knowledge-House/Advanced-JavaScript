@@ -1,0 +1,1104 @@
+Last login: Sun Oct  4 16:34:32 on ttys000
+-bash: o: command not found
+-bash: /Users/joeknows718/virtualenv-auto-activate.sh: No such file or directory
+Joes-MacBook-Pro:TKH-site joeknows718$ heroku open
+
+Opening radiant-castle-3807... done
+Updating Heroku CLI...done. Updated to 3.42.17
+Joes-MacBook-Pro:TKH-site joeknows718$ 
+Joes-MacBook-Pro:TKH-site joeknows718$ cd
+Joes-MacBook-Pro:~ joeknows718$ ls
+Adobe Illustrator CS6 16.0.0 Final (Eng Jpn)  Mac Os X [ChingLiu]
+Adobe Photoshop CS6 13.0 Final (English Japanese)  Mac Os X [ChingLiu]
+Adv_JS
+Andriod_SDK
+Applications
+CoC_Codebase
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+books
+bower_components
+bxd-splash
+node_modules
+project_house
+projects
+Joes-MacBook-Pro:~ joeknows718$ pro
+procmail      productbuild  profiles      prove         prove5.18
+procsystime   productsign   proj          prove5.16     
+Joes-MacBook-Pro:~ joeknows718$ cd projects
+Joes-MacBook-Pro:projects joeknows718$ ls
+718Digital		TKH-site		hustle_science
+718dotDigital		angular_Project1	imaGmail
+Andriod_SDK		bxd			learn-D3
+Flicker_Graff_Search	bxd-splash		the_dozens]
+JS Resources		graff_map
+Joes-MacBook-Pro:projects joeknows718$ cd graff_map/
+Joes-MacBook-Pro:graff_map joeknows718$ python -m SimpleHTTPServer 8000
+Serving HTTP on 0.0.0.0 port 8000 ...
+^CTraceback (most recent call last):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SimpleHTTPServer.py", line 224, in <module>
+    test()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SimpleHTTPServer.py", line 220, in test
+    BaseHTTPServer.test(HandlerClass, ServerClass)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/BaseHTTPServer.py", line 599, in test
+    httpd.serve_forever()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 236, in serve_forever
+    poll_interval)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 155, in _eintr_retry
+    return func(*args)
+KeyboardInterrupt
+Joes-MacBook-Pro:graff_map joeknows718$ python -m SimpleHTTPServer 3000
+Serving HTTP on 0.0.0.0 port 3000 ...
+127.0.0.1 - - [13/Oct/2015 18:33:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2015 18:33:53] code 404, message File not found
+127.0.0.1 - - [13/Oct/2015 18:33:53] "GET /favicon.ico HTTP/1.1" 404 -
+^CTraceback (most recent call last):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SimpleHTTPServer.py", line 224, in <module>
+    test()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SimpleHTTPServer.py", line 220, in test
+    BaseHTTPServer.test(HandlerClass, ServerClass)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/BaseHTTPServer.py", line 599, in test
+    httpd.serve_forever()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 236, in serve_forever
+    poll_interval)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 155, in _eintr_retry
+    return func(*args)
+KeyboardInterrupt
+Joes-MacBook-Pro:graff_map joeknows718$ ls
+Joes-MacBook-Pro:graff_map joeknows718$ cd ..
+Joes-MacBook-Pro:projects joeknows718$ ls
+718Digital		TKH-site		hustle_science
+718dotDigital		angular_Project1	imaGmail
+Andriod_SDK		bxd			learn-D3
+Flicker_Graff_Search	bxd-splash		the_dozens]
+JS Resources		graff_map
+Joes-MacBook-Pro:projects joeknows718$ Flicker_Graff_Search/
+-bash: Flicker_Graff_Search/: is a directory
+Joes-MacBook-Pro:projects joeknows718$ python -m SimpleHTTPServer 3000
+Serving HTTP on 0.0.0.0 port 3000 ...
+127.0.0.1 - - [13/Oct/2015 18:34:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2015 18:35:00] "GET /Flicker_Graff_Search/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2015 18:35:02] "GET /Flicker_Graff_Search/Graff_Search/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2015 18:35:02] "GET /Flicker_Graff_Search/Graff_Search/css/main.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2015 18:35:02] "GET /Flicker_Graff_Search/Graff_Search/js/app.js HTTP/1.1" 200 -
+^CTraceback (most recent call last):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SimpleHTTPServer.py", line 224, in <module>
+    test()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SimpleHTTPServer.py", line 220, in test
+    BaseHTTPServer.test(HandlerClass, ServerClass)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/BaseHTTPServer.py", line 599, in test
+    httpd.serve_forever()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 236, in serve_forever
+    poll_interval)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 155, in _eintr_retry
+    return func(*args)
+KeyboardInterrupt
+Joes-MacBook-Pro:projects joeknows718$ node
+> 1 + 1;
+2
+> console.log('awww yea')
+awww yea
+undefined
+> exit
+ReferenceError: exit is not defined
+    at repl:1:1
+    at REPLServer.defaultEval (repl.js:132:27)
+    at bound (domain.js:254:14)
+    at REPLServer.runBound [as eval] (domain.js:267:12)
+    at REPLServer.<anonymous> (repl.js:279:12)
+    at REPLServer.emit (events.js:107:17)
+    at REPLServer.Interface._onLine (readline.js:214:10)
+    at REPLServer.Interface._line (readline.js:553:8)
+    at REPLServer.Interface._ttyWrite (readline.js:830:14)
+    at ReadStream.onkeypress (readline.js:109:10)
+> 
+[1]+  Stopped                 node
+Joes-MacBook-Pro:projects joeknows718$ cd
+Joes-MacBook-Pro:~ joeknows718$ ls
+Adobe Illustrator CS6 16.0.0 Final (Eng Jpn)  Mac Os X [ChingLiu]
+Adobe Photoshop CS6 13.0 Final (English Japanese)  Mac Os X [ChingLiu]
+Adv_JS
+Andriod_SDK
+Applications
+CoC_Codebase
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+books
+bower_components
+bxd-splash
+node-class-projects
+node_modules
+practice_dir
+project_house
+projects
+Joes-MacBook-Pro:~ joeknows718$ cd projects
+Joes-MacBook-Pro:projects joeknows718$ ls
+718Digital		TKH-site		hustle_science
+718dotDigital		angular_Project1	imaGmail
+Andriod_SDK		bxd			learn-D3
+Flicker_Graff_Search	bxd-splash		the_dozens]
+JS Resources		graff_map
+Joes-MacBook-Pro:projects joeknows718$ cd ..
+Joes-MacBook-Pro:~ joeknows718$ cd Adv_JS/
+Joes-MacBook-Pro:Adv_JS joeknows718$ cd Advanced-JavaScript/
+Joes-MacBook-Pro:Advanced-JavaScript joeknows718$ ls
+Excersizes	Slide Content 
+Joes-MacBook-Pro:Advanced-JavaScript joeknows718$ git add .
+Joes-MacBook-Pro:Advanced-JavaScript joeknows718$ git commit -m "added slides buddy"
+[master 30b51c5] added slides buddy
+ Committer: Joe C <joeknows718@Joes-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 7 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Slide Content /.DS_Store
+ rename Slide Content /{Class One- Overview.pdf => Class 1- Overview.pdf} (57%)
+ create mode 100644 Slide Content /Class 2 Re-intro to JavaScript and jQuery.pdf
+ create mode 100644 Slide Content /Class 3- Server-side scripting- conceptual.pdf
+ create mode 100644 Slide Content /Class 4- Install Fest.pdf
+ create mode 100644 Slide Content /Class 5- GitHub.pdf
+Joes-MacBook-Pro:Advanced-JavaScript joeknows718$ git push origin master
+Username for 'https://github.com': joeknows718
+Password for 'https://joeknows718@github.com': 
+Counting objects: 10, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (10/10), 2.93 MiB | 1.11 MiB/s, done.
+Total 10 (delta 1), reused 0 (delta 0)
+To https://github.com/The-Knowledge-House/Advanced-JavaScript.git
+   53bf59f..30b51c5  master -> master
+Joes-MacBook-Pro:Advanced-JavaScript joeknows718$ clear
+
+Joes-MacBook-Pro:Advanced-JavaScript joeknows718$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Joes-MacBook-Pro:Advanced-JavaScript joeknows718$ git
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+The most commonly used git commands are:
+   add        Add file contents to the index
+   bisect     Find by binary search the change that introduced a bug
+   branch     List, create, or delete branches
+   checkout   Checkout a branch or paths to the working tree
+   clone      Clone a repository into a new directory
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   fetch      Download objects and refs from another repository
+   grep       Print lines matching a pattern
+   init       Create an empty Git repository or reinitialize an existing one
+   log        Show commit logs
+   merge      Join two or more development histories together
+   mv         Move or rename a file, a directory, or a symlink
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+   rebase     Forward-port local commits to the updated upstream head
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+   show       Show various types of objects
+   status     Show the working tree status
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+Joes-MacBook-Pro:Advanced-JavaScript joeknows718$ d ..
+-bash: d: command not found
+Joes-MacBook-Pro:Advanced-JavaScript joeknows718$ cd ..
+Joes-MacBook-Pro:Adv_JS joeknows718$ cd
+Joes-MacBook-Pro:~ joeknows718$ mkdir Advanced_JS
+Joes-MacBook-Pro:~ joeknows718$ cd Advanced_JS/
+Joes-MacBook-Pro:Advanced_JS joeknows718$ git clone https://github.com/The-Knowledge-House/Advanced-JavaScript
+Cloning into 'Advanced-JavaScript'...
+remote: Counting objects: 1786, done.
+remote: Compressing objects: 100% (1220/1220), done.
+remote: Total 1786 (delta 401), reused 1786 (delta 401), pack-reused 0
+Receiving objects: 100% (1786/1786), 5.87 MiB | 1.79 MiB/s, done.
+Resolving deltas: 100% (401/401), done.
+Checking connectivity... done.
+Joes-MacBook-Pro:Advanced_JS joeknows718$ ls
+Advanced-JavaScript
+Joes-MacBook-Pro:Advanced_JS joeknows718$ cd Advanced-JavaScript/
+Joes-MacBook-Pro:Advanced-JavaScript joeknows718$ ls
+Excersizes	Slide Content 
+Joes-MacBook-Pro:Advanced-JavaScript joeknows718$ cd Slide\ Content\ /
+Joes-MacBook-Pro:Slide Content  joeknows718$ ls
+Class 1- Overview.pdf				Class 4- Install Fest.pdf
+Class 2 Re-intro to JavaScript and jQuery.pdf	Class 5- GitHub.pdf
+Class 3- Server-side scripting- conceptual.pdf
+Joes-MacBook-Pro:Slide Content  joeknows718$ cd ..
+Joes-MacBook-Pro:Advanced-JavaScript joeknows718$ cd ..
+Joes-MacBook-Pro:Advanced_JS joeknows718$ lear
+-bash: lear: command not found
+Joes-MacBook-Pro:Advanced_JS joeknows718$ clear
+
+Joes-MacBook-Pro:Advanced_JS joeknows718$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Joes-MacBook-Pro:Advanced_JS joeknows718$ 
+Joes-MacBook-Pro:Advanced_JS joeknows718$ cd
+Joes-MacBook-Pro:~ joeknows718$ clear
+
+Joes-MacBook-Pro:~ joeknows718$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Joes-MacBook-Pro:~ joeknows718$ clear
+
+Joes-MacBook-Pro:~ joeknows718$ node
+> 2+2
+4
+> var word =  "hello nyc";
+undefined
+> word
+'hello nyc'
+> var list = [1,2,'hello']
+undefined
+> list
+[ 1, 2, 'hello' ]
+> list[1]
+2
+> list[0]
+1
+> var myName = 'joe carrano';
+undefined
+> for (var i = 0, len = myName.length; i < len; i++){ console.log(myName[i]);}
+j
+o
+e
+ 
+c
+a
+r
+r
+a
+n
+o
+undefined
+> for (var i = 0; i<11; i++){ console.log(i);}
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+undefined
+> for (var i = 4; i<11; i++){ console.log(i);}
+4
+5
+6
+7
+8
+9
+10
+undefined
+> for (var i = 0; i<15; i = i + 2){ console.log(i);}
+0
+2
+4
+6
+8
+10
+12
+14
+undefined
+> myName
+'joe carrano'
+> myName[3]
+' '
+> myName[4]
+'c'
+> exit
+ReferenceError: exit is not defined
+    at repl:1:1
+    at REPLServer.defaultEval (repl.js:132:27)
+    at bound (domain.js:254:14)
+    at REPLServer.runBound [as eval] (domain.js:267:12)
+    at REPLServer.<anonymous> (repl.js:279:12)
+    at REPLServer.emit (events.js:107:17)
+    at REPLServer.Interface._onLine (readline.js:214:10)
+    at REPLServer.Interface._line (readline.js:553:8)
+    at REPLServer.Interface._ttyWrite (readline.js:830:14)
+    at ReadStream.onkeypress (readline.js:109:10)
+> 
+(^C again to quit)
+> 
+undefined
+> 
+(^C again to quit)
+> 
+Joes-MacBook-Pro:~ joeknows718$ mkdir class_6_ex
+Joes-MacBook-Pro:~ joeknows718$ cd class_6_ex/
+Joes-MacBook-Pro:class_6_ex joeknows718$ var fnc = function(input){
+-bash: syntax error near unexpected token `('
+Joes-MacBook-Pro:class_6_ex joeknows718$ input = input + 2;
+-bash: input: command not found
+Joes-MacBook-Pro:class_6_ex joeknows718$ return input;
+-bash: return: input: numeric argument required
+-bash: return: can only `return' from a function or sourced script
+Joes-MacBook-Pro:class_6_ex joeknows718$ var add2 = function(number){ number = number + 2; return number;}
+-bash: syntax error near unexpected token `('
+Joes-MacBook-Pro:class_6_ex joeknows718$ var add2 = function(number){ number = number + 2; return number;}
+-bash: syntax error near unexpected token `('
+Joes-MacBook-Pro:class_6_ex joeknows718$ node
+> var add2 = function(number){ number = number + 2; return number;}
+undefined
+> add2(2)
+4
+> add2(5)
+7
+> 
+(^C again to quit)
+> 
+Joes-MacBook-Pro:class_6_ex joeknows718$ cd
+Joes-MacBook-Pro:~ joeknows718$ cd class_6_ex/
+Joes-MacBook-Pro:class_6_ex joeknows718$ node oddoreven.js
+1 is Odd
+12 is Even
+15 is Odd
+18 is Even
+20 is Even
+23 is Odd
+26 is Even
+10 is Even
+33 is Odd
+134 is Even
+Joes-MacBook-Pro:class_6_ex joeknows718$ cd
+Joes-MacBook-Pro:~ joeknows718$ cd Advanced_JS/
+Joes-MacBook-Pro:Advanced_JS joeknows718$ git pull origin master
+fatal: Not a git repository (or any of the parent directories): .git
+Joes-MacBook-Pro:Advanced_JS joeknows718$ cd 
+Joes-MacBook-Pro:~ joeknows718$ cd Adv_JS/
+Joes-MacBook-Pro:Adv_JS joeknows718$ git pull origin master
+fatal: Not a git repository (or any of the parent directories): .git
+Joes-MacBook-Pro:Adv_JS joeknows718$ ls
+Advanced-JavaScript	app.js
+Joes-MacBook-Pro:Adv_JS joeknows718$ cd Advanced-JavaScript/
+Joes-MacBook-Pro:Advanced-JavaScript joeknows718$ git pull origin master
+remote: Counting objects: 43, done.
+remote: Compressing objects: 100% (27/27), done.
+remote: Total 43 (delta 20), reused 38 (delta 15), pack-reused 0
+Unpacking objects: 100% (43/43), done.
+From https://github.com/The-Knowledge-House/Advanced-JavaScript
+ * branch            master     -> FETCH_HEAD
+   30b51c5..dd17bc0  master     -> origin/master
+Updating 30b51c5..dd17bc0
+error: Your local changes to the following files would be overwritten by merge:
+	.DS_Store
+Please, commit your changes or stash them before you can merge.
+Aborting
+Joes-MacBook-Pro:Advanced-JavaScript joeknows718$ cd
+Joes-MacBook-Pro:~ joeknows718$ cd Advanced_JS/
+Joes-MacBook-Pro:Advanced_JS joeknows718$ ls
+Advanced-JavaScript
+Joes-MacBook-Pro:Advanced_JS joeknows718$ cd Advanced-JavaScript/
+Joes-MacBook-Pro:Advanced-JavaScript joeknows718$ git pull origin master
+remote: Counting objects: 43, done.
+remote: Compressing objects: 100% (27/27), done.
+remote: Total 43 (delta 20), reused 38 (delta 15), pack-reused 0
+Unpacking objects: 100% (43/43), done.
+From https://github.com/The-Knowledge-House/Advanced-JavaScript
+ * branch            master     -> FETCH_HEAD
+   30b51c5..dd17bc0  master     -> origin/master
+Updating 30b51c5..dd17bc0
+error: Your local changes to the following files would be overwritten by merge:
+	.DS_Store
+	Excersizes/.DS_Store
+Please, commit your changes or stash them before you can merge.
+Aborting
+Joes-MacBook-Pro:Advanced-JavaScript joeknows718$ ls
+Excersizes	Slide Content 
+Joes-MacBook-Pro:Advanced-JavaScript joeknows718$ cd Excersizes/
+Joes-MacBook-Pro:Excersizes joeknows718$ ls
+Build A Static Site With Express (Class 7) 	Loading Dynamic Content (Class 8)
+Joes-MacBook-Pro:Excersizes joeknows718$ ls
+Build A Static Site With Express (Class 7) 	Loading Dynamic Content (Class 8)
+Joes-MacBook-Pro:Excersizes joeknows718$ cd ..
+Joes-MacBook-Pro:Advanced-JavaScript joeknows718$ git pull origin master
+From https://github.com/The-Knowledge-House/Advanced-JavaScript
+ * branch            master     -> FETCH_HEAD
+Updating 30b51c5..dd17bc0
+error: Your local changes to the following files would be overwritten by merge:
+	.DS_Store
+	Excersizes/.DS_Store
+Please, commit your changes or stash them before you can merge.
+Aborting
+Joes-MacBook-Pro:Advanced-JavaScript joeknows718$ clear
+
+Joes-MacBook-Pro:Advanced-JavaScript joeknows718$ cd
+Joes-MacBook-Pro:~ joeknows718$ cd projects
+Joes-MacBook-Pro:projects joeknows718$ ls
+718Digital		Andriod_SDK		JS Resources		angular_Project1	bxd-splash		hustle_science		learn-D3
+718dotDigital		Flicker_Graff_Search	TKH-site		bxd			graff_map		imaGmail		the_dozens]
+Joes-MacBook-Pro:projects joeknows718$ cd TKH-site/
+Joes-MacBook-Pro:TKH-site joeknows718$ ls
+Procfile		TKH_Site		custom_storages.pyc	manage.py		requirements.txt	static_final		tkh_env
+TKH			custom_storages.py	db.sqlite3		media			static			templates
+Joes-MacBook-Pro:TKH-site joeknows718$ git pull origin master
+Username for 'https://github.com': joeknows718
+Password for 'https://joeknows718@github.com': 
+remote: Counting objects: 51, done.
+remote: Compressing objects: 100% (18/18), done.
+remote: Total 51 (delta 28), reused 20 (delta 20), pack-reused 13
+Unpacking objects: 100% (51/51), done.
+From https://github.com/The-Knowledge-House/TKH-site
+ * branch            master     -> FETCH_HEAD
+   99a6be3..a2335ae  master     -> origin/master
+Updating 99a6be3..a2335ae
+Fast-forward
+ TKH/custom_storages.py                         |  10 ++++++++++
+ TKH_Site/migrations/0029_auto_20151005_1352.py |  20 ++++++++++++++++++++
+ TKH_Site/migrations/0030_auto_20151027_1349.py |  20 ++++++++++++++++++++
+ db.sqlite3                                     | Bin 294912 -> 294912 bytes
+ static/.DS_Store                               | Bin 10244 -> 10244 bytes
+ static/css/home.css                            |   7 +++++++
+ static_final/css/bootstrap.css                 |   1 +
+ templates/about.html                           |  36 +++++++++++++++---------------------
+ templates/base.html                            |  51 +++++----------------------------------------------
+ templates/event_detail.html                    |   2 +-
+ templates/index.html                           | 103 ++++++++++++++++++++++++++++++++++++++++++++++---------------------------------------------------------
+ 11 files changed, 125 insertions(+), 125 deletions(-)
+ create mode 100644 TKH/custom_storages.py
+ create mode 100644 TKH_Site/migrations/0029_auto_20151005_1352.py
+ create mode 100644 TKH_Site/migrations/0030_auto_20151027_1349.py
+ create mode 100644 static/css/home.css
+Joes-MacBook-Pro:TKH-site joeknows718$ python manage.py runserver
+Traceback (most recent call last):
+  File "manage.py", line 10, in <module>
+    execute_from_command_line(sys.argv)
+  File "/Library/Python/2.7/site-packages/django/core/management/__init__.py", line 385, in execute_from_command_line
+    utility.execute()
+  File "/Library/Python/2.7/site-packages/django/core/management/__init__.py", line 345, in execute
+    settings.INSTALLED_APPS
+  File "/Library/Python/2.7/site-packages/django/conf/__init__.py", line 46, in __getattr__
+    self._setup(name)
+  File "/Library/Python/2.7/site-packages/django/conf/__init__.py", line 42, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/Library/Python/2.7/site-packages/django/conf/__init__.py", line 98, in __init__
+    % (self.SETTINGS_MODULE, e)
+ImportError: Could not import settings 'TKH.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named dj_database_url
+Joes-MacBook-Pro:TKH-site joeknows718$ source tkh_env/bin/activate
+(tkh_env)Joes-MacBook-Pro:TKH-site joeknows718$ python manage.py runserver
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+TKH_Site.Program.end_date: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 1 issue (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+
+October 29, 2015 - 09:35:57
+Django version 1.8, using settings 'TKH.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Error: That port is already in use.
+(tkh_env)Joes-MacBook-Pro:TKH-site joeknows718$ python manage.py runserver
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+TKH_Site.Program.end_date: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 1 issue (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+
+October 29, 2015 - 09:44:26
+Django version 1.8, using settings 'TKH.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+^C(tkh_env)Joes-MacBook-Pro:TKH-site joeknows718$ python manage.py makemigrations
+System check identified some issues:
+
+WARNINGS:
+TKH_Site.Program.end_date: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+Migrations for 'TKH_Site':
+  0031_auto_20151029_0944.py:
+    - Alter field end_date on program
+(tkh_env)Joes-MacBook-Pro:TKH-site joeknows718$ python manage.py migrate
+System check identified some issues:
+
+WARNINGS:
+TKH_Site.Program.end_date: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+Operations to perform:
+  Synchronize unmigrated apps: ckeditor, staticfiles, messages, storages, embed_video, localflavor
+  Apply all migrations: admin, TKH_Site, contenttypes, auth, sessions
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+  Installing custom SQL...
+Running migrations:
+  Rendering model states... DONE
+  Applying TKH_Site.0029_auto_20151005_1352... OK
+  Applying TKH_Site.0030_auto_20151027_1349... OK
+  Applying TKH_Site.0031_auto_20151029_0944... OK
+(tkh_env)Joes-MacBook-Pro:TKH-site joeknows718$ python manage.py runserver
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+TKH_Site.Program.end_date: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 1 issue (0 silenced).
+October 29, 2015 - 09:44:59
+Django version 1.8, using settings 'TKH.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[29/Oct/2015 09:45:25]"GET /news/ HTTP/1.1" 200 7358
+[29/Oct/2015 09:45:35]"GET /about/ HTTP/1.1" 200 20117
+[29/Oct/2015 09:45:43]"GET /admin HTTP/1.1" 301 0
+[29/Oct/2015 09:45:43]"GET /admin/ HTTP/1.1" 302 0
+[29/Oct/2015 09:45:43]"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2092
+[29/Oct/2015 09:45:50]"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[29/Oct/2015 09:45:50]"GET /admin/ HTTP/1.1" 200 9418
+[29/Oct/2015 09:46:29]"GET / HTTP/1.1" 200 27048
+^C(tkh_env)Joes-MacBook-Pro:TKH-site joeknows718$ clear
+
+(tkh_env)Joes-MacBook-Pro:TKH-site joeknows718$ heroku
+Updating Heroku v4 CLI to 4.26.1-bf7a4d8 (master)... done
+Setting up node-v4.1.2... done
+Updating plugins... done
+rebuilding plugins cache... done
+Usage: heroku COMMAND [--app APP] [command-specific-options]
+
+Primary help topics, type "heroku help TOPIC" for more details:
+
+  addons    #  manage add-on resources
+  apps      #  manage apps (create, destroy)
+  auth      #  authentication (login, logout)
+  config    #  manage app config vars
+  domains   #  manage domains
+  logs      #  display logs for an app
+  ps        #  manage dynos (dynos, workers)
+  releases  #  manage app releases
+  run       #  run one-off commands (console, rake)
+  sharing   #  manage collaborators on an app
+
+Additional topics:
+
+  2fa          #  manage two-factor authentication settings
+  buildpacks   #  manage the buildpack for an app
+  certs        #  manage ssl endpoints for an app
+  drains       #  display drains for an app
+  features     #  manage optional features
+  fork         #  clone an existing app
+  git          #  manage local git repository for app
+  help         #  list commands and display help
+  keys         #  manage authentication keys
+  labs         #  manage optional features
+  local        #  run heroku app locally
+  login        #  Login with your Heroku credentials.
+  maintenance  #  manage maintenance mode for an app
+  members      #  manage membership in organization accounts
+  orgs         #  manage organization accounts
+  pg           #  manage heroku-postgresql databases
+  pgbackups    #  manage backups of heroku postgresql databases
+  plugins      #  manage plugins to the heroku gem
+  regions      #  list available regions
+  stack        #  manage the stack for an app
+  status       #  Status of Heroku Platform
+  twofactor    #  manage two-factor authentication settings
+  update       #  update the heroku client
+  version      #  display version
+
+(tkh_env)Joes-MacBook-Pro:TKH-site joeknows718$ heroku login
+Enter your Heroku credentials.
+Email: jcarrano@theknowledgehouse.org
+Password (typing will be hidden): 
+Logged in as jcarrano@theknowledgehouse.org
+(tkh_env)Joes-MacBook-Pro:TKH-site joeknows718$ heroku run python manage.py makemigrations
+Running python manage.py makemigrations on radiant-castle-3807... up, run.6564
+System check identified some issues:
+
+WARNINGS:
+TKH_Site.Program.end_date: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+Migrations for 'TKH_Site':
+  0031_auto_20151029_1334.py:
+    - Alter field end_date on program
+(tkh_env)Joes-MacBook-Pro:TKH-site joeknows718$ heroku run python manage.py migrate
+Running python manage.py migrate on radiant-castle-3807... up, run.8059
+System check identified some issues:
+
+WARNINGS:
+TKH_Site.Program.end_date: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+Operations to perform:
+  Synchronize unmigrated apps: staticfiles, messages, ckeditor, storages, localflavor, embed_video
+  Apply all migrations: sessions, contenttypes, admin, TKH_Site, auth
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+  Installing custom SQL...
+Running migrations:
+  Rendering model states... DONE
+  Applying TKH_Site.0029_auto_20151005_1352... OK
+  Applying TKH_Site.0030_auto_20151027_1349... OK
+(tkh_env)Joes-MacBook-Pro:TKH-site joeknows718$ git add .
+(tkh_env)Joes-MacBook-Pro:TKH-site joeknows718$ commit -m "change text on network funders"
+-bash: commit: command not found
+(tkh_env)Joes-MacBook-Pro:TKH-site joeknows718$ git commit -m "change text on network funders"
+[master 96efcad] change text on network funders
+ Committer: Joe C <joeknows718@Joes-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 21 insertions(+), 1 deletion(-)
+ create mode 100644 TKH_Site/migrations/0031_auto_20151029_0944.py
+(tkh_env)Joes-MacBook-Pro:TKH-site joeknows718$ git push origin master
+Username for 'https://github.com': joeknows718
+Password for 'https://joeknows718@github.com': 
+Counting objects: 10, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (10/10), 1.08 KiB | 0 bytes/s, done.
+Total 10 (delta 8), reused 0 (delta 0)
+To https://github.com/The-Knowledge-House/TKH-site.git
+   a2335ae..96efcad  master -> master
+(tkh_env)Joes-MacBook-Pro:TKH-site joeknows718$ git push heroku master
+Counting objects: 10, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (10/10), 1.08 KiB | 0 bytes/s, done.
+Total 10 (delta 8), reused 0 (delta 0)
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote: -----> Removing .DS_Store files
+remote: -----> Fetching custom buildpack https://github.com/heroku/heroku-buildpack-python... done
+remote: -----> Python app detected
+remote: -----> Installing dependencies with pip
+remote: 
+remote: -----> Preparing static assets
+remote:        Running collectstatic...
+remote:        1397 static files copied.
+remote: 
+remote: 
+remote: -----> Discovering process types
+remote:        Procfile declares types -> web
+remote: 
+remote: -----> Compressing... done, 158.6MB
+remote: -----> Launching... done, v15
+remote:        https://radiant-castle-3807.herokuapp.com/ deployed to Heroku
+remote: 
+remote: Verifying deploy.... done.
+To https://git.heroku.com/radiant-castle-3807.git
+   a2335ae..96efcad  master -> master
+(tkh_env)Joes-MacBook-Pro:TKH-site joeknows718$ nano ~.bash
+(tkh_env)Joes-MacBook-Pro:TKH-site joeknows718$ nano ~/.bash_profile
+(tkh_env)Joes-MacBook-Pro:TKH-site joeknows718$ DATABASE_URL
+-bash: DATABASE_URL: command not found
+(tkh_env)Joes-MacBook-Pro:TKH-site joeknows718$ DATABASE_URL
+-bash: DATABASE_URL: command not found
+(tkh_env)Joes-MacBook-Pro:TKH-site joeknows718$ printenv
+TERM_PROGRAM=Apple_Terminal
+TERM=xterm-256color
+SHELL=/bin/bash
+TMPDIR=/var/folders/43/b5t5h1p17gq5vccmb1lgs5vc0000gn/T/
+Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.g2vqaqvA8y/Render
+TERM_PROGRAM_VERSION=343.7
+OLDPWD=/Users/joeknows718/projects
+ANDRIOD_TOOLS={/Andriod_SDK/sdk/android-sdk-macosx}/tools/
+TERM_SESSION_ID=95E99D5E-7145-411F-8AA9-F7ED9209A041
+ANDRIOD_PLATFORM_TOOLS={/Andriod_SDK/sdk/android-sdk-macosx}platform-tools/
+ANDRIOD_HOME={/Andriod_SDK/android-sdk-macosx}
+USER=joeknows718
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.KrR3ukJprR/Listeners
+__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0
+VIRTUAL_ENV=/Users/joeknows718/projects/TKH-site/tkh_env
+PATH=/Users/joeknows718/projects/TKH-site/tkh_env/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:{/Andriod_SDK/sdk/android-sdk-macosx}/tools/:{/Andriod_SDK/sdk/android-sdk-macosx}platform-tools/::/Applications/Postgres.app/Contents/Versions/9.4/bin
+PWD=/Users/joeknows718/projects/TKH-site
+LANG=en_US.UTF-8
+XPC_FLAGS=0x0
+PS1=(tkh_env)\h:\W \u\$ 
+XPC_SERVICE_NAME=0
+HOME=/Users/joeknows718
+SHLVL=1
+LOGNAME=joeknows718
+_=/usr/bin/printenv
+(tkh_env)Joes-MacBook-Pro:TKH-site joeknows718$ python manage.py runserver
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+TKH_Site.Program.end_date: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 1 issue (0 silenced).
+October 29, 2015 - 13:57:33
+Django version 1.8, using settings 'TKH.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+^[^C(tkh_env)Joes-MacBook-Pro:TKH-site joeknows718$ cleart
+-bash: cleart: command not found
+(tkh_env)Joes-MacBook-Pro:TKH-site joeknows718$ clear
+
+(tkh_env)Joes-MacBook-Pro:TKH-site joeknows718$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(tkh_env)Joes-MacBook-Pro:TKH-site joeknows718$ cd
+(tkh_env)Joes-MacBook-Pro:~ joeknows718$ mkdir web_blog_pjk_exp 
+(tkh_env)Joes-MacBook-Pro:~ joeknows718$ cd web_blog_pjk_exp/
+(tkh_env)Joes-MacBook-Pro:web_blog_pjk_exp joeknows718$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sane defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg> --save` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+name: (web_blog_pjk_exp) blog_project
+version: (1.0.0) 
+description: a blog project w email contact form 
+entry point: (index.js) app.js
+test command: 
+git repository: 
+keywords: 
+author: Joe C 718 
+license: (ISC) 
+About to write to /Users/joeknows718/web_blog_pjk_exp/package.json:
+
+{
+  "name": "blog_project",
+  "version": "1.0.0",
+  "description": "a blog project w email contact form ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joe C 718",
+  "license": "ISC"
+}
+
+
+Is this ok? (yes) y
+(tkh_env)Joes-MacBook-Pro:web_blog_pjk_exp joeknows718$ ls
+package.json
+(tkh_env)Joes-MacBook-Pro:web_blog_pjk_exp joeknows718$ npm install express --save
+npm WARN package.json blog_project@1.0.0 No repository field.
+npm WARN package.json blog_project@1.0.0 No README data
+express@4.13.3 node_modules/express
+├── escape-html@1.0.2
+├── merge-descriptors@1.0.0
+├── array-flatten@1.1.1
+├── cookie-signature@1.0.6
+├── methods@1.1.1
+├── cookie@0.1.3
+├── fresh@0.3.0
+├── utils-merge@1.0.0
+├── vary@1.0.1
+├── range-parser@1.0.3
+├── etag@1.7.0
+├── content-type@1.0.1
+├── path-to-regexp@0.1.7
+├── parseurl@1.3.0
+├── content-disposition@0.5.0
+├── serve-static@1.10.0
+├── depd@1.0.1
+├── qs@4.0.0
+├── finalhandler@0.4.0 (unpipe@1.0.0)
+├── on-finished@2.3.0 (ee-first@1.1.1)
+├── debug@2.2.0 (ms@0.7.1)
+├── proxy-addr@1.0.8 (forwarded@0.1.0, ipaddr.js@1.0.1)
+├── accepts@1.2.13 (negotiator@0.5.3, mime-types@2.1.7)
+├── type-is@1.6.9 (media-typer@0.3.0, mime-types@2.1.7)
+└── send@0.13.0 (destroy@1.0.3, statuses@1.2.1, ms@0.7.1, mime@1.3.4, http-errors@1.3.1)
+(tkh_env)Joes-MacBook-Pro:web_blog_pjk_exp joeknows718$ ls
+node_modules	package.json
+(tkh_env)Joes-MacBook-Pro:web_blog_pjk_exp joeknows718$ ls
+app.js		node_modules	package.json
+(tkh_env)Joes-MacBook-Pro:web_blog_pjk_exp joeknows718$ node app.js
+Node running on port 3000
+^C
+(tkh_env)Joes-MacBook-Pro:web_blog_pjk_exp joeknows718$ node app.js
+Node running on port 3000
+^C
+(tkh_env)Joes-MacBook-Pro:web_blog_pjk_exp joeknows718$ node app.js
+Node running on port 3000
+^[[A^[[B^C
+(tkh_env)Joes-MacBook-Pro:web_blog_pjk_exp joeknows718$ node app.js
+Node running on port 3000
+^C
+(tkh_env)Joes-MacBook-Pro:web_blog_pjk_exp joeknows718$ 
